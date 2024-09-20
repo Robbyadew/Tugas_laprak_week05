@@ -1,0 +1,17 @@
+konsumen = input("Masukkan jenis konsumen: ")
+totalBelanja = int(input("Masukkan total belanja: "))
+
+if totalBelanja == 100000:
+  if konsumen == "member":
+    totalBelanja = totalBelanja - (totalBelanja * 0.03 + totalBelanja * 0.02)
+    print("Total Belanja yang harus dibayar adalah", totalBelanja)
+  else:
+    totalBelanja = totalBelanja (totalBelanja * 0.03)
+    print("Total Belanja yang harus dibayar adalah", totalBelanja)
+    if totalBelanja == 200000:
+      if konsumen == "member":
+       totalBelanja = totalBelanja - (totalBelanja * 0.04 + totalBelanja * 0.02)
+      print("Total Belanja yang harus dibayar adalah", totalBelanja)
+    else:
+      totalBelanja = totalBelanja  (totalBelanja * 0.04)
+      print("Total Belanja yang harus dibayar adalah", totalbelanja)
