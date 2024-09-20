@@ -1,0 +1,10 @@
+pertama = int(input("Masukkan angka pertama: "))
+kedua = int(input("Masukkan angka kedua: "))
+ketiga = int(input("Masukkan angka ketiga: "))
+
+if pertama > kedua and pertama > ketiga:
+    print(pertama, "adalah angka terbesar.")
+elif kedua > pertama and kedua > ketiga:
+    print(kedua, "adalah angka terbesar.")
+else:
+    print(ketiga, "adalah angka terbesar.")
